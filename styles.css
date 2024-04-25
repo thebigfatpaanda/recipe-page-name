@@ -1,0 +1,155 @@
+body{
+    background-color:#f3e6d8;
+    margin:0;
+
+    
+}
+
+#div1{
+    background-color:rgb(255, 255, 255);
+    max-width:870px;
+    width:100%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+img{
+    max-width:93%;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    margin-left:26px;
+    margin-right:26px;
+    margin-top:30px;
+    float:left;
+}
+#head1{
+    position:relative;
+    left:30px;
+    top:20px;
+    color:#302d2c;
+    font-family: "Young Serif", serif;
+    font-size:250%;
+    font-weight:400;
+}
+.para1{
+display:block;
+width:90%;
+position:relative;
+left:30px;
+top:10px;
+bottom:20px;
+font-family:outfit;
+font-weight:350;
+font-size:16px;
+}
+
+#div2{
+    width:93%;
+    position:relative;
+    top:20px;
+    background-color:#fff5fa;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    padding-top:10px;
+
+}
+
+#div2 h3{
+    margin-left:20px;
+    color:#7b284f;
+    font-family:outfit;
+    font-size:larger;
+
+    
+}
+ul {
+    display:inline-block;
+    margin-bottom:10px;
+    position:relative;
+    bottom:20px;
+
+}
+li{
+    margin-left:30px;
+    margin-top:10px;
+    font-size:medium;
+    font-family:outfit;
+    font-weight:250;
+    color:#636260;
+
+}
+li::marker{
+    color:#7b284f;
+}
+
+.head2{
+    font-family: "Young Serif", serif;
+    color:#854632;
+    position:relative;
+    left:30px;
+    font-size:250%;
+    font-weight: 400;
+}
+
+.line1{
+    width:93%;
+    
+}
+
+
+ol{
+    position:relative;
+    bottom:10px;
+    display:block;
+    width:750px;
+    list-style-type:decimal;
+
+}
+table{
+    width:93%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table, th,td {
+    border:1px rgb(193, 184, 184);
+    border-style:solid;
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-collapse: collapse;
+    padding:15px;
+    font-family:outfit;
+    color:#7b284f;
+  }
+
+  .attribution{
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+  }
+  
+  @media (width <= 700px) {
+    img{
+        position:relative;
+        right:8px;
+    }
+    #head1{
+        font-size:30px;
+    }
+    .head2{
+        font-size:30px;
+    }
+    ol{
+        display:block;
+        width:420px;
+    }
+    body{
+        overflow-x:hidden;
+    }
+}
+   
+
